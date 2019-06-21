@@ -1,0 +1,10 @@
+<?php
+unset($_SESSION['user_admin']);
+unset($_SESSION['nama_admin']);
+unset($_SESSION['kd_jurusan']);
+unset($_SESSION['level']);
+unset($_SESSION['id_admin']);
+session_start();
+session_destroy();
+header('location:../../index.html');
+?>

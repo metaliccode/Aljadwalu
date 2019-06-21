@@ -1,0 +1,60 @@
+/*body{
+    background:url(images/stai.jpg) no-repeat; 
+    background-size:100% 100%;
+    bottom:0px;
+    top:0px;
+    margin: 0px;
+    position:absolute;
+    width: 100%;
+}*/
+.bg{
+    background:url(../images/stai.jpg) no-repeat;
+    background-size:70% 100%;
+    margin-top: 0px;
+    bottom:0px;
+    top:0px;
+    margin-top: 0px;
+}
+.main-section{
+    width: 100%;
+}
+.user-login-header,.login-image-main{
+    margin-top: 15px;
+}
+.user-login-header h3{
+    font-size: 24px;
+    color:blue;
+}
+.user-login-header p,.last-part p{
+    /*color:#c9c5c7;*/
+}
+.user-login-header span{
+    /*color:#fff;*/
+    font-weight: 600;
+}
+.login-image-main{
+    padding: 10px;
+    background-color:#fff;
+    border-radius:0px;
+    box-shadow: 0 0 5px 0 #fff;
+}
+.user-image-section img{
+    margin-top: 50px;
+    height:120px;
+    width:120px;
+}
+.user-login-box,.last-part{
+    padding:20px;
+}
+.user-login-box a,.user-login-box a:hover{
+    background-color: #B56162;
+    border:0px solid #B56162;
+    width: 30%;
+    color:#fff;
+    font-weight:600;
+    float: right;
+}
+.last-part a{
+    text-decoration: none;
+    color:#B56162;
+}

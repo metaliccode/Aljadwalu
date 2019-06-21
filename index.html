@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/boot-log.css">
+	<link rel="stylesheet" type="text/css" href="css/bs-login.css">
+	<link rel="stylesheet" type="text/css" href="vendor/font-awesome/css/font-awesome.min.css">
+	<link href='images/logo.ico' rel='shortcut icon'>
+</head>
+<body class="bg-success">
+<div class="container main-section">
+	<div class="col-md-12 col-sm-12 col-xs-12 user-image-section text-center">
+		<img src="images/Logo.png">
+	</div>
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<h3>SISTEM PENJADWALAN KULIAH</h3>
+			<h3>STAI YAPATA AL-JAWAMI</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4 col-sm-8 col-xs-12 col-md-offset-4 col-sm-offset-2 login-image-main text-center">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12 user-login-box">
+					<form method="POST" action="admin-aljawami/php/cek_login.php">
+					<div class="form-group">
+				  		<input type="text" class="form-control" placeholder="User Name" name="username" required>
+					</div>
+					<div class="form-group">
+				  		<input type="password" class="form-control" placeholder="Password" name="password" required>
+					</div>
+					<input type="submit" name="login" class="btn btn-success btn-block" value="LOGIN" style="float: right; width: 30%;">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
